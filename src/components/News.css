@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.news-card {
+    padding: 20px;
+    border: 2px solid #666;
+    width: 30%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    color: #113;
+}
+
+button {
+    background-color: #d2d2d2;
+    width: 30%;
+    height: 6%;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 1rem;
+    margin-inline: auto;
+}
