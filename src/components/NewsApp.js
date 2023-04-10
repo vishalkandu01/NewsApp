@@ -8,7 +8,7 @@ function NewsApp() {
     const [newsList, setNewsList] = useState([]);
     const [query, setQuery] = useState('technology');
 
-    const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-03-07&sortBy=publishedAt&apiKey=${apiKey}`;
+    const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-04-09&to=2023-04-09&sortBy=popularity&apiKey=${apiKey}`;
 
     const queryInputRef = useRef(null);
 
@@ -35,7 +35,7 @@ function NewsApp() {
 
     return (
         <>
-            <h1 style={{ fontSize: '2.5rem' }}>News App</h1>
+            <h1>News App</h1>
             <form onSubmit={handleSubmit}>
                 <input className='query-input' type="text" ref={queryInputRef} placeholder=' search your news' />
                 <input className='btn-submit' onClick={handleSubmit} type="submit" value="Submit" />
