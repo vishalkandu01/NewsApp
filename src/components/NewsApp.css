@@ -1,3 +1,8 @@
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
 form {
     width: 100%;
     display: flex;
@@ -11,9 +16,13 @@ form {
 .query-input {
     width: 50%;
     height: 35px;
+    border: 2px solid rgb(62, 62, 62);
+    border-radius: 10px;
 }
 
 .btn-submit {
     width: 12%;
     height: 30px;
+    border: 2px solid rgb(62, 62, 62);
+    border-radius: 10px;
 }
